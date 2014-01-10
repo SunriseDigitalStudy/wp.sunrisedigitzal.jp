@@ -1,0 +1,7 @@
+[Thu Jan 09 15:33:16 2014] [error] [client 113.35.96.2] File does not exist: /home/sites/wp.sunrisedigital.jp/web/favicon.ico
+[Thu Jan 09 15:39:26 2014] [error] [client 113.35.96.2] File does not exist: /home/sites/wp.sunrisedigital.jp/web/favicon.ico
+[Thu Jan 09 15:45:28 2014] [error] [client 113.35.96.2] File does not exist: /home/sites/wp.sunrisedigital.jp/web/favicon.ico
+[Thu Jan 09 16:06:15 2014] [error] [client 113.35.96.2] script '/home/sites/wp.sunrisedigital.jp/web/test.php' not found or unable to stat
+[Thu Jan 09 16:15:39 2014] [error] [client 113.35.96.2] File does not exist: /home/sites/wp.sunrisedigital.jp/web/\xe8\xa9\xa6\xe3\x81\x97\xe3\x81\xab\xe6\x8a\x95\xe7\xa8\xbf, referer: http://wp.sunrisedigital.jp/
+[Thu Jan 09 16:16:09 2014] [error] [client 113.35.96.2] File does not exist: /home/sites/wp.sunrisedigital.jp/web/\xe8\xa9\xa6\xe3\x81\x97\xe3\x81\xab\xe6\x8a\x95\xe7\xa8\xbf, referer: http://wp.sunrisedigital.jp/
+[Thu Jan 09 16:16:29 2014] [error] [client 113.35.96.2] File does not exist: /home/sites/wp.sunrisedigital.jp/web/\xe8\xa9\xa6\xe3\x81\x97\xe3\x81\xab\xe6\x8a\x95\xe7\xa8\xbf, referer: http://wp.sunrisedigital.jp/
