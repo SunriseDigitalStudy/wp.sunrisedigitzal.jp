@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/*
+Theme Name: sitenavi
+Theme URI: http://wp.sunrisedigital.jp/
+Description: sitenavi
+Author: mediacraft
+Author URI: http://wp.sunrisedigital.jp/
+Version: 1.0
+
+*/
+
+/********************
+ 1. base 
+ 2. common
+ 3. main-container
+********************/
+
+
+/*********************************************
+ 1. base 
+**********************************************/
+
+/*********************************************
+ 2. common
+**********************************************/
+
+/*********************************************
+ 3. main-container
+**********************************************/
+
+/* main-box */
+
+div#main-box {
+	padding: 20px 10px 0; 
+}
+
+div#main-box dl.site-list {
+	float: left;
+	width: 300px;
+	margin: 0 20px 20px 0;
+}
+
+div#main-box dl.site-list dt {
+	font-size: 131%;
+	font-weight: bold;
+}
+
+div#main-box dl.site-list dt:before {
+	content: '■';
+}
+
+div#main-box dl.site-list dd {
+	line-height: 20px;
+}
+
+div#main-box dl.site-list dd.site-image {
+	width: 300px;
+	padding: 60px 0;
+	text-align: center;
+	background: #e8e8e8;	
+}
+
+div#main-box dl.site-list dd.caption{
+	padding: 3px 0;
+	font-size: 116%;
+} 
+
+/* under-box */
+
+div#under-box {
+	clear: both;
+}
+
+/* new-info */
+
+div#under-box  div#new-info {
+	float: left;
+	overflow: auto;
+	width: 635px;
+	height: 166px;
+	padding: 10px;
+	border: 1px #e8e8e8 solid;
+}
+
+div#under-box  div#new-info ul li {
+	padding: 2px;
+	border-bottom: 1px #999999 dotted;
+}
+
+div#under-box  div#new-info ul li:nth-child(odd){
+	background-color: #ededed;
+}
+
+div#under-box  div#new-info ul li a {
+	display: block;
+}
+
+div#under-box  div#new-info ul li a:hover {
+	text-decoration: underline;
+}
+
+/* banners */
+
+div#under-box  div#banners {
+	float: right;
+	margin-right: 15px;
+}
+
+div#under-box  div#banners ul li a {
+	display: block;
+	width: 290px;
+	margin-bottom: 10px;
+	padding: 20px 0;
+	background-color: #b9e0a5;
+	text-align: center;
+}

@@ -1,11 +1,15 @@
-
+<?php
+/*
+Template Name: sites-commentary
+*/
+?>
 
 		<?php get_header(); ?>
 		
 		<div id="main-container" class="container">
 			<div id="main-box">
 				<dl class="site-list">
-					<dt>ヌキなび</dt>
+					<dt>ヌキなびa</dt>
 					<dd class="site-image"><a href="/nukinavi/">サイトイメージ画像</a></dd>
 					<dd class="caption">見出し見出し見出し</dd>
 					<dd class="text">サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明</dd>

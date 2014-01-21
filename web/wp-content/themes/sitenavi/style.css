@@ -9,7 +9,10 @@ Version: 1.0
 
 */
 
-@import "reset.css";
+@import "css/reset.css";
+@import "css/top.css";
+@import "css/sites-commentary.css";
+@import "css/blog.css";
 
 /********************
  1. base 
@@ -24,23 +27,132 @@ Version: 1.0
  1. base 
 **********************************************/
 
-
-div#main-container {
-	background-color: #ff0000;
+div.container {
+	overflow: hidden;
+	width: 980px;
+	margin: 0 auto;
 }
 
 /*********************************************
  2. common
 **********************************************/
 
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
 /*********************************************
  3. header
 **********************************************/
+
+div#header {
+	width: 100%;
+	padding: 10px 0;
+	background-color: #ededed;
+}
+
+div#header div.container  {
+	position: relative;	
+}
+
+div#header h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+div#header ul li {
+	display: inline;
+	text-align: center;
+}
+
+div#header ul li a {
+	display: inline-block;
+	text-align: center; 
+}
+
+/* header-toplist */
+
+div#header ul#header-toplist {
+	margin-left: 625px;
+}
+
+div#header ul#header-toplist li a {
+	width: 170px;
+	padding: 5px 0;
+	background-color: #f8cecc;
+}
+
+div#header ul#header-navi li a {
+	width: 140px;
+	padding: 5px 0;
+	border-left: 1px #000000 solid;
+	font-weight: bold;
+}
+
+/* header-navi */
+
+div#header ul#header-navi {
+	padding-top: 25px;
+	margin-left: 392px;
+}
+
+div#header ul#header-navi li:last-child a {
+	border-right: 1px #000000 solid;
+}
+
 
 /*********************************************
  4. main-container
 **********************************************/
 
+div#main-container {
+	padding: 10px 0;
+}
+
 /*********************************************
  5. footer
 **********************************************/
+
+div#footer {
+	clear: both;
+	background-color: #999999;
+}
+
+div#footer ul {
+	padding: 5px 0;
+	margin: 5px auto;
+}
+
+div#footer ul li {
+	display: inline;
+	padding: 0 3px;
+	border-right: 1px #ffffff solid;
+}
+
+div#footer ul li:last-child {
+	border: none;
+}
+
+div#footer ul li a {
+	color: #ffffff;	
+}
+
+div#footer ul li a:hover {
+	text-decoration: underline;	
+}
+
+div#footer ul#fotter-toplist {
+	width: 950px;
+}
+
+div#footer ul#fotter-underlist	 {
+	width: 590px;
+}
+
+div#footer p#copy-right {
+	padding: 10px 0;
+	text-align: center;
+	color : #696969;
+}
