@@ -43,23 +43,50 @@
 			</div>
 			<div id="under-box">
 				<div id="new-info">
-					<ul>
-						<li><a href="">新着情報</a></li>
-						<li><a href="">新着情報</a></li>
-						<li><a href="">新着情報</a></li>
-						<li><a href="">新着情報</a></li>
-						<li><a href="">新着情報</a></li>
-						<li><a href="">新着情報</a></li>
-						<li><a href="">新着情報</a></li>
-						<li><a href="">新着情報</a></li>
-						<li><a href="">新着情報</a></li>
-						<li><a href="">新着情報</a></li>
-						<li><a href="">新着情報</a></li>
-						<li><a href="">新着情報</a></li>
-						<li><a href="">新着情報</a></li>
-						<li><a href="">新着情報</a></li>
-						<li><a href="">新着情報</a></li>
-					</ul>
+				
+				<dl class="feed">
+<?php
+    $myQuery = new WP_Query(); // WP_Queryオブジェクト生成
+		$param = array( //パラメータ。
+	//	'meta_query' => array( array( //カスタムフィールド指定
+	//	 'key' => 'nukinavi', //カスタムフィールドのキー名
+	//	 'value' => 'nukinavi' //そのフィールドに入れられている値名
+    //   )),
+        'posts_per_page' => '10', //（整数）- 1ページに表示する記事数。-1 ならすべての投稿を取得。
+        'post_type' => 'news', //カスタム投稿タイプのみを指定。
+        'post_status' => 'publish', //取得するステータスを指定：publish（公開済み）
+        'orderby' => 'ID',
+        'order' => 'DESC' //降順。大きい値から小さい値の順。
+    );
+    $myQuery->query($param);  // クエリにパラメータを渡す
+?>
+<dl>
+<?php if($myQuery->have_posts()): while($myQuery->have_posts()) : $myQuery->the_post(); ?>
+<dt>
+
+<?php if(get_post_meta($post->ID,'nukinavi',true) == 'nukinavi'): ?>
+ヌキなび
+<?php elseif(get_post_meta($post->ID,'furonavi',true) == 'furonavi'): ?>
+フロなび
+<?php elseif(get_post_meta($post->ID,'suponichi_aaa',true) == 'suponichi_aaa'): ?>
+スポニチ
+<?php elseif(get_post_meta($post->ID,'fudol',true) == 'fudol'): ?>
+フードルTV
+<?php elseif(get_post_meta($post->ID,'ppyn',true) == 'ppyn'): ?>
+パピヨン
+<?php elseif(get_post_meta($post->ID,'gangan',true) == 'gangan'): ?>
+ガンガン
+<?php else: ?>
+その他
+<?php endif; ?>
+
+<?php the_title(); ?><span><?php the_time("Y年m月j日") ?></span></dt>
+<dd><?php the_content(); ?></dd>
+<?php endwhile; else: ?>
+<dt>新着情報はありません。</dt>
+<?php endif; ?>
+</dl>
+				</dl>
 				</div>
 				<div id="banners">
 					<ul>

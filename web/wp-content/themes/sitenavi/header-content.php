@@ -16,7 +16,7 @@
 			<li><a href="">問い合わせフォーム</a></li>
 		</ul>
 		<ul id="header-navi">
-			<li><a href="">媒体解説</a></li>
+			<li><a href="">a媒体解説</a></li>
 			<li><a href="">資料ダウンロード</a></li>
 			<li><a href="">料金</a></li>
 			<li><a href="">ブログ</a></li>
