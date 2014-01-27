@@ -15,7 +15,7 @@ Template Name: page-new
 		'key' => 'nukinavi', //カスタムフィールドのキー名
 		'value' => 'nukinavi' //そのフィールドに入れられている値名
 		)),
-        'posts_per_page' => '10', //（整数）- 1ページに表示する記事数。-1 ならすべての投稿を取得。
+        'posts_per_page' => '-1', //（整数）- 1ページに表示する記事数。-1 ならすべての投稿を取得。
         'post_type' => 'news', //カスタム投稿タイプのみを指定。
         'post_status' => 'publish', //取得するステータスを指定：publish（公開済み）
         'orderby' => 'ID',
@@ -34,6 +34,7 @@ Template Name: page-new
 </dl>
 <?php endif; ?>
 </div>
+<hr />
 <div id="b">
 <?php
     $myQuery = new WP_Query(); // WP_Queryオブジェクト生成
@@ -42,7 +43,7 @@ Template Name: page-new
 		'key' => 'furonavi', //カスタムフィールドのキー名
 		'value' => 'furonavi' //そのフィールドに入れられている値名
 		)),
-        'posts_per_page' => '10', //（整数）- 1ページに表示する記事数。-1 ならすべての投稿を取得。
+        'posts_per_page' => '-1', //（整数）- 1ページに表示する記事数。-1 ならすべての投稿を取得。
         'post_type' => 'news', //カスタム投稿タイプのみを指定。
         'post_status' => 'publish', //取得するステータスを指定：publish（公開済み）
         'orderby' => 'ID',
