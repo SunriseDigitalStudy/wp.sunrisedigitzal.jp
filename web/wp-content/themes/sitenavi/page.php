@@ -12,31 +12,31 @@
 				</dl>
 				<dl class="site-list">
 					<dt>フロなび</dt>
-					<dd class="site-image">サイトイメージ画像</dd>
+					<dd class="site-image"><a href="/furonavi/">サイトイメージ画像</a></dd>
 					<dd class="caption">見出し見出し見出し</dd>
 					<dd class="text">サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明</dd>
 				</dl>
 				<dl class="site-list">
 					<dt>オトナのスポニチ</dt>
-					<dd class="site-image">サイトイメージ画像</dd>
+					<dd class="site-image"><a href="/aaa-sponichi/">サイトイメージ画像</a></dd>
 					<dd class="caption">見出し見出し見出し</dd>
 					<dd class="text">サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明</dd>
 				</dl>
 				<dl class="site-list">
 					<dt>フードルTV関東</dt>
-					<dd class="site-image">サイトイメージ画像</dd>
+					<dd class="site-image"><a href="/fudol/">サイトイメージ画像</a></dd>
 					<dd class="caption">見出し見出し見出し</dd>
 					<dd class="text">サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明</dd>
 				</dl>
 				<dl class="site-list">
 					<dt>パピヨンジョブ</dt>
-					<dd class="site-image">サイトイメージ画像</dd>
+					<dd class="site-image"><a href="/ppyn/">サイトイメージ画像</a></dd>
 					<dd class="caption">見出し見出し見出し</dd>
 					<dd class="text">サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明</dd>
 				</dl>
 				<dl class="site-list">
 					<dt>ガンガン</dt>
-					<dd class="site-image">サイトイメージ画像</dd>
+					<dd class="site-image"><a href="/gangan/">サイトイメージ画像</a></dd>
 					<dd class="caption">見出し見出し見出し</dd>
 					<dd class="text">サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明</dd>
 				</dl>
