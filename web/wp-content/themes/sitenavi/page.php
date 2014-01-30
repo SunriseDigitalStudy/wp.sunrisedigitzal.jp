@@ -60,9 +60,10 @@
     );
     $myQuery->query($param);  // クエリにパラメータを渡す
 ?>
-<dl>
 <?php if($myQuery->have_posts()): while($myQuery->have_posts()) : $myQuery->the_post(); ?>
-<dt>
+<dl>
+
+<dt data-btn="accodion-trigger">
 
 <?php if(get_post_meta($post->ID,'nukinavi',true) == 'nukinavi'): ?>
 ヌキなび
@@ -81,11 +82,11 @@
 <?php endif; ?>
 
 <?php the_title(); ?><span><?php the_time("Y年m月j日") ?></span></dt>
-<dd><?php the_content(); ?></dd>
-<?php endwhile; else: ?>
-<dt>新着情報はありません。</dt>
-<?php endif; ?>
+<dd class="accodion-inner" data-receive="accodion-inner"><?php the_content(); ?></dd>
 </dl>
+<?php endwhile; else: ?>
+<p>新着情報はありません。</p>
+<?php endif; ?>
 				</dl>
 				</div>
 				<div id="banners">

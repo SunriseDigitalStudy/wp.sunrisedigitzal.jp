@@ -11,7 +11,7 @@ Version: 1.0
 
 @import "css/reset.css";
 @import "css/top.css";
-@import "css/sites-commentary.css";
+@import "css/page-common.css";
 @import "css/blog.css";
 
 /********************
@@ -40,6 +40,10 @@ div.container {
 a {
 	color: #000000;
 	text-decoration: none;
+}
+
+.accodion-inner {
+	display: none;
 }
 
 /*********************************************
