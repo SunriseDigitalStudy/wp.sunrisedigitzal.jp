@@ -75,9 +75,7 @@ div#under-box {
 
 div#under-box  div#new-info {
 	float: left;
-	overflow: auto;
 	width: 635px;
-	height: 166px;
 	padding: 10px;
 	border: 1px #e8e8e8 solid;
 }

@@ -44,7 +44,6 @@
 			<div id="under-box">
 				<div id="new-info">
 				
-				<dl class="feed">
 <?php
     $myQuery = new WP_Query(); // WP_Queryオブジェクト生成
 		$param = array( //パラメータ。
@@ -52,7 +51,7 @@
 	//	 'key' => 'nukinavi', //カスタムフィールドのキー名
 	//	 'value' => 'nukinavi' //そのフィールドに入れられている値名
     //   )),
-        'posts_per_page' => '10', //（整数）- 1ページに表示する記事数。-1 ならすべての投稿を取得。
+        'posts_per_page' => '5', //（整数）- 1ページに表示する記事数。-1 ならすべての投稿を取得。
         'post_type' => 'news', //カスタム投稿タイプのみを指定。
         'post_status' => 'publish', //取得するステータスを指定：publish（公開済み）
         'orderby' => 'ID',
@@ -60,16 +59,16 @@
     );
     $myQuery->query($param);  // クエリにパラメータを渡す
 ?>
-<?php if($myQuery->have_posts()): while($myQuery->have_posts()) : $myQuery->the_post(); ?>
-<dl>
 
+<dl>
+<?php if($myQuery->have_posts()): while($myQuery->have_posts()) : $myQuery->the_post(); ?>
 <dt data-btn="accodion-trigger">
 
 <?php if(get_post_meta($post->ID,'nukinavi',true) == 'nukinavi'): ?>
 ヌキなび
 <?php elseif(get_post_meta($post->ID,'furonavi',true) == 'furonavi'): ?>
 フロなび
-<?php elseif(get_post_meta($post->ID,'suponichi_aaa',true) == 'suponichi_aaa'): ?>
+<?php elseif(get_post_meta($post->ID,'aaa',true) == 'aaa'): ?>
 スポニチ
 <?php elseif(get_post_meta($post->ID,'fudol',true) == 'fudol'): ?>
 フードルTV
@@ -87,7 +86,7 @@
 <?php endwhile; else: ?>
 <p>新着情報はありません。</p>
 <?php endif; ?>
-				</dl>
+
 				</div>
 				<div id="banners">
 					<ul>
