@@ -41,6 +41,7 @@ a {
 	text-decoration: none;
 }
 
+div.hidden,
 .accodion-inner,
 .arrow-box {
 	display: none;
@@ -48,6 +49,33 @@ a {
 
 .arrow-box.active {
 	display: block;
+}
+
+/* topへ戻る */
+
+.backtotop {
+	position: fixed;
+	right: 15px;
+	bottom: 20px;
+	z-index: 9000;
+	display: none;
+} 
+
+.backtotop a {
+	display: block;
+	color: #777777;
+	padding: 14px 6px;
+	margin: 0;
+	background-color: #dddddd;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.backtotop a:hover {
+	background: #666666;
+	color: #ffffff;
 }
 
 /*********************************************

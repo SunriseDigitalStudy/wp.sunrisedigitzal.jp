@@ -4,8 +4,9 @@ Template Name: page-price
 */
 ?>
 
-		<?php get_header("content"); ?>
+		<?php get_header(); ?>
 		<div id="main-container" class="container">
+		
 		<div id="main-box">
 <?php
     $myQuery = new WP_Query(); // WP_Queryオブジェクト生成

@@ -51,7 +51,6 @@ function custom_columns($columns) {
 }
 add_filter( 'manage_posts_columns', 'custom_columns' );
 
-
 // 投稿一覧にカスタムフィールドの列を追加 
 /* function manage_posts_columns($columns) {
     $columns['nukinavi'] = "ヌキなび";

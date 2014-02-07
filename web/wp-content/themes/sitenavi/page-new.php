@@ -4,8 +4,9 @@ Template Name: page-new
 */
 ?>
 
-		<?php get_header("content"); ?>
+		<?php get_header(); ?>
 		<div id="main-container" class="container">
+		
 		<div id="main-box">
 		
 		<ul id="tab-menu" data-btn="tab-trigger">

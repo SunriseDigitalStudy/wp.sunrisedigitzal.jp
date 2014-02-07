@@ -12,6 +12,7 @@ Version: 1.0
 /********************
  1. base 
  2. common
+ 3. title-box
  4. main-box
 ********************/
 
@@ -24,10 +25,43 @@ Version: 1.0
  2. common
 **********************************************/
 
-div.hidden {
-	display: none;
+/*********************************************
+ 3. title-box
+**********************************************/
+
+div#title-box {
+	width: 100%;
+	background-color: #f8cecc;	
+}
+
+div#title-box div,
+div#title-box div#title-list ul {
+	width: 980px;
+	margin: 0 auto;	
+}
+
+div#title-box h2{
+	padding: 30px 0;
+	font-size: 131%;
+	font-weight: bold;
+}
+
+div#title-box div#title-list {
+	width: 100%;
+	padding: 10px 0;
+	background-color: #e8e8e8;
+}
+
+div#title-box div#title-list ul li {
+	display: inline;
+	margin-right: 5px;
+	font-size: 85%;
+}
+
+div#title-box div#title-list ul li:before {
+	content: '⇒';
 }
 
 /*********************************************
- 3. main-box
+ 4. main-box
 **********************************************/

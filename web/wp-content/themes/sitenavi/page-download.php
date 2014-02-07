@@ -4,20 +4,10 @@ Template Name: page-download
 */
 ?>
 
-		<?php get_header("content"); ?>
+		<?php get_header(); ?>
 		
 		<div id="main-container" class="container">
-			<div id="title-box">
-				<h2>資料ダウンロード</h2>
-				<ul id="title-list">
-					<li><a href="">ヌキなび</a></li>
-					<li><a href="">フロなび</a></li>
-					<li><a href="">オトナのスポニチ</a></li>
-					<li><a href="">フードルTV</a></li>
-					<li><a href="">パピヨンジョブ</a></li>
-					<li><a href="">ガンガン</a></li>
-				</ul>
-			</div>
+
 			<div id="main-box">
 		<!-- ヌキなびの記事一覧 -->
 		<div id="nukinavi">
