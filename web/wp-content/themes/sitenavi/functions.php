@@ -1,4 +1,30 @@
 <?php
+function change_post_menu_label() {
+	global $menu;
+	global $submenu;
+	$menu[5][0] = 'マル秘ブログ';
+	$submenu['edit.php'][5][0] = 'ブログ一覧';
+	$submenu['edit.php'][10][0] = '新しいブログ';
+	$submenu['edit.php'][16][0] = 'タグ';
+	//echo ”;
+}
+function change_post_object_label() {
+	global $wp_post_types;
+	$labels = &$wp_post_types['post']->labels;
+	$labels->name = '日記';
+	$labels->singular_name = '日記';
+	$labels->add_new = _x('作る', '日記');
+	$labels->add_new_item = '新しい日記';
+	$labels->edit_item = '日記の編集';
+	$labels->new_item = '新しい日記';
+	$labels->view_item = '日記を表示';
+	$labels->search_items = '日記検索';
+	$labels->not_found = '日記が見つかりませんでした';
+	$labels->not_found_in_trash = 'ゴミ箱の日記にも見つかりませんでした';
+}
+add_action( 'init', 'change_post_object_label' );
+add_action( 'admin_menu', 'change_post_menu_label' );
+
 //カスタムメニュー追加
 function my_custom_init() {
     register_post_type( 'news', array(

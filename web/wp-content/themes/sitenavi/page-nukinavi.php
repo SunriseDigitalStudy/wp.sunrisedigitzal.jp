@@ -9,6 +9,22 @@ Template Name: page-nukinavi
 		<div id="main-container" class="container">
 
 			<div id="main-box">
+				<div id="site-header">
+					<div id="site-data">
+					<h3>ヌキなび</h3>
+						<p></p>
+						<dl>
+							<dt>Site URL</dt>
+							<dd>PC<a href="http://www.nukinavi.com/top.html" target="_blank">http://www.nukinavi.com/top.html</a></dd>
+							<dd>モバイル<a href="http://www.nukinavi.com/i/top" target="_blank">http://www.nukinavi.com/i/top</a></dd>
+							<ddスマホ<a href="http://www.nukinavi.com/sp/top" target="_blank">http://www.nukinavi.com/sp/top</a>></dd>
+						</dl>
+					</div>
+					<p id="site-thum">ヌキなびサムネイル</p>
+				</div>
+				<div id="push">
+					<h4>ここをプッシュしてください！</h4>
+				</div>
 				<div id="q-a">
 					<?php
 						$myQuery = new WP_Query(); // WP_Queryオブジェクト生成
