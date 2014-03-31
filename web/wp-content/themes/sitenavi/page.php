@@ -3,44 +3,77 @@
 		<?php get_header(); ?>
 		
 		<div id="main-container" class="container">
-			<div id="main-box">
-				<dl class="site-list">
-					<dt>ヌキなび</dt>
-					<dd class="site-image"><a href="/nukinavi/">サイトイメージ画像</a></dd>
-					<dd class="caption">見出し見出し見出し</dd>
-					<dd class="text">サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明</dd>
-				</dl>
-				<dl class="site-list">
-					<dt>フロなび</dt>
-					<dd class="site-image"><a href="/furonavi/">サイトイメージ画像</a></dd>
-					<dd class="caption">見出し見出し見出し</dd>
-					<dd class="text">サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明</dd>
-				</dl>
-				<dl class="site-list">
-					<dt>オトナのスポニチ</dt>
-					<dd class="site-image"><a href="/aaa-sponichi/">サイトイメージ画像</a></dd>
-					<dd class="caption">見出し見出し見出し</dd>
-					<dd class="text">サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明</dd>
-				</dl>
-				<dl class="site-list">
-					<dt>フードルTV関東</dt>
-					<dd class="site-image"><a href="/fudol/">サイトイメージ画像</a></dd>
-					<dd class="caption">見出し見出し見出し</dd>
-					<dd class="text">サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明</dd>
-				</dl>
-				<dl class="site-list">
-					<dt>パピヨンジョブ</dt>
-					<dd class="site-image"><a href="/ppyn/">サイトイメージ画像</a></dd>
-					<dd class="caption">見出し見出し見出し</dd>
-					<dd class="text">サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明</dd>
-				</dl>
-				<dl class="site-list">
-					<dt>ガンガン</dt>
-					<dd class="site-image"><a href="/gangan/">サイトイメージ画像</a></dd>
-					<dd class="caption">見出し見出し見出し</dd>
-					<dd class="text">サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明サイト説明</dd>
-				</dl>
-			</div>
+			<ul id="main-box">
+				<li class="nukinavi">
+					<a href="/nukinavi/">
+						<dl>
+							<dt>ヌキなび</dt>
+							<dd class="details">詳細を見る</dd>
+							<dd class="site-image"><img src="http://wp.sunrisedigital.jp/wp-content/themes/sitenavi/images/top/nukinavi.jpg" alt="ヌキなび" /></dd>
+							<dd class="caption">運営実績10年以上の弊社看板サイト！</dd>
+							<dd class="text">名実共に弊社の看板となる風俗情報サイトです。使い勝手を重視したサイト作りと充実のコンテンツ群でアピールします。</dd>
+						</dl>
+					</a>
+				</li>
+				<li class="furonavi">
+					<a href="/furonavi/">
+						<dl>
+							<dt>フロなび</dt>
+							<dd class="details">詳細を見る</dd>
+							<dd class="site-image"><img src="http://wp.sunrisedigital.jp/wp-content/themes/sitenavi/images/top/furonavi.jpg" alt="フロなび" /></dd>
+							<dd class="caption">全国展開するソープ専門サイト！</dd>
+							<dd class="text">店舗公式サイトへのアクセス数増加を主な目的としたソープ専門サイトです。ソープ嬢専門の日記サイト「フログ」も同時展開中！</dd>
+						</dl>
+					</a>
+				</li>
+				<li class="aaa-sponichi corner">
+					<a href="/aaa-sponichi/">
+						<dl>
+							<dt>スポニチ</dt>
+							<dd class="details">詳細を見る</dd>
+							<dd class="site-image"><img src="http://wp.sunrisedigital.jp/wp-content/themes/sitenavi/images/top/aaa.jpg" alt="スポニチ" /></dd>
+							<dd class="caption">有名新聞社の名を冠した風俗情報サイト！</dd>
+							<dd class="text">店舗公式サイトへのアクセス数増加を狙ったサイトです。スポニチアネックスと直結しているため、抜群の主客率を誇ります。</dd>
+						</dl>
+					</a>
+				</li>
+				<li class="fudol">
+					<a href="/fudol/">
+						<dl>
+							<dt>フードルTV</dt>
+							<dd class="details">詳細を見る</dd>
+							<dd class="site-image"><img src="http://wp.sunrisedigital.jp/wp-content/themes/sitenavi/images/top/fudol.jpg" alt="フードルTV" /></dd>
+							<dd class="caption">風俗動画を投稿したいならココ！</dd>
+							<dd class="text">動画に特化した風俗サイトです。約5000本もの動画が投稿され、「動画で風俗を探す」というコンセプトの元に運営しています。</dd>
+						</dl>
+					</a>
+				</li>
+				<li class="ppyn">
+					<a href="/ppyn/">
+						<dl>
+							<dt>パピヨンジョブ</dt>
+							<dd class="details">詳細を見る</dd>
+							<dd class="site-image"><img src="http://wp.sunrisedigital.jp/wp-content/themes/sitenavi/images/top/ppyn.jpg" alt="パピヨンジョブ" /></dd>
+							<dd class="caption">風俗で働きたい女性向けの安心求人サイト</dd>
+							<dd class="text">女性専用の風俗求人サイトです。メルアド登録不要の手軽さとバリエーションに富んだ充実のコンテンツで多数の女性を集めます。</dd>
+						</dl>
+					</a>
+				</li>
+				<li class="gangan corner">
+					<a href="/gangan/">
+						<dl>
+							<dt>ガンガン</dt>
+							<dd class="details">詳細を見る</dd>
+							<dd class="site-image"><img src="http://wp.sunrisedigital.jp/wp-content/themes/sitenavi/images/top/gangan.jpg" alt="ガンガン" /></dd>
+							<dd class="caption">ガンガン働きたいユーザーを集めます！</dd>
+							<dd class="text">男性向け高収入求人サイト。スカウトメールなどの充実した機能とお得なキャンペーンで、ガンガン働きたい男性を引きつけます。</dd>
+						</dl>
+					</a>
+				</li>
+			</ul>
+
+
+
 			<div id="under-box">
 				<div id="new-info">
 				

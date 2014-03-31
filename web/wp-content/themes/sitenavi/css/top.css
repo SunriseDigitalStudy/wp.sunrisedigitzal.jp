@@ -30,44 +30,165 @@ Version: 1.0
 
 /* main-box */
 
-div#main-box {
-	padding: 20px 10px 0; 
+ul#main-box {
+	overflow: hidden;
+
 }
 
-div#main-box dl.site-list {
+ul#main-box li {
+	position: relative;
+	display: inline;
 	float: left;
 	width: 300px;
-	margin: 0 20px 20px 0;
+	height: 274px;
+	margin: 0 25px 25px 0;
+
+	background-color: #ffffff;
 }
 
-div#main-box dl.site-list dt {
+ul#main-box li.corner {
+	margin-right: 0;
+}
+
+ul#main-box li a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 300px;
+	height: 274px;
+}
+
+ul#main-box li a:hover {
+	box-shadow:rgba(132, 132, 132, 0.701961) 0px 17px 10px -9px;
+	-webkit-box-shadow:rgba(132, 132, 132, 0.701961) 0px 17px 10px -9px;
+	-moz-box-shadow:rgba(132, 132, 132, 0.701961) 0px 17px 10px -9px;
+	border-bottom: 10px solid #000000;
+}
+
+ul#main-box li dl {
+	height: 242px;
+	padding: 15px 24px;
+	border: 1px solid #cccccc;
+}
+
+ul#main-box li dl dt {
+	margin-bottom: 10px;
 	font-size: 131%;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+ul#main-box li dl dd.details {
+	position: absolute;
+	top: 15px;
+	right: 24px;
+	width: 70px;
+	padding: 3px 0;
+	font-size: 77%;
+	border-radius: 3px;
+	background-color: #808080;
+	color: #ffffff;
+	text-align: center;
+}
+
+ul#main-box li dl dd.caption {
+	margin: 15px 0 10px;
 	font-weight: bold;
 }
 
-div#main-box dl.site-list dt:before {
-	content: '■';
+ul#main-box li dl dd.text {
+	font-size: 93%;
 }
 
-div#main-box dl.site-list dd {
-	line-height: 20px;
+/** ヌキなび hover時 **/
+
+ul#main-box li.nukinavi a:hover {
+	border-color: #ff7e02;
 }
 
-div#main-box dl.site-list dd.site-image {
-	width: 300px;
-	padding: 60px 0;
-	text-align: center;
-	background: #e8e8e8;	
+ul#main-box li.nukinavi a:hover dl dt {
+	color: #ff7e02;
 }
 
-div#main-box dl.site-list dd.caption{
-	padding: 3px 0;
-	font-size: 116%;
-} 
+ul#main-box li.nukinavi a:hover dl dd.details {
+	background-color: #ff7e02;
+}
+
+/** フロなび hover時 **/
+
+ul#main-box li.furonavi a:hover {
+	border-color: #990000;
+}
+
+ul#main-box li.furonavi a:hover dl dt {
+	color: #990000;
+}
+
+ul#main-box li.furonavi a:hover dl dd.details {
+	background-color: #990000;
+}
+
+/** スポニチ hover時 **/
+
+ul#main-box li.aaa-sponichi a:hover {
+	border-color: #00026e;
+}
+
+ul#main-box li.aaa-sponichi a:hover dl dt {
+	color: #00026e;
+}
+
+ul#main-box li.aaa-sponichi a:hover dl dd.details {
+	background-color: #00026e;
+}
+
+/** フードル hover時 **/
+
+ul#main-box li.fudol a:hover {
+	border-color: #d62bd0;
+}
+
+ul#main-box li.fudol a:hover dl dt {
+	color: #d62bd0;
+}
+
+ul#main-box li.fudol a:hover dl dd.details {
+	background-color: #d62bd0;
+}
+
+/** パピヨン hover時 **/
+
+ul#main-box li.ppyn a:hover {
+	border-color: #f03c4e;
+}
+
+ul#main-box li.ppyn a:hover dl dt {
+	color: #f03c4e;
+}
+
+ul#main-box li.ppyn a:hover dl dd.details {
+	background-color: #f03c4e;
+}
+
+/** ガンガン hover時 **/
+
+ul#main-box li.gangan a:hover {
+	border-color: #1d9927;
+}
+
+ul#main-box li.gangan a:hover dl dt {
+	color: #1d9927;
+}
+
+ul#main-box li.gangan a:hover dl dd.details {
+	background-color: #1d9927;
+}
 
 /* under-box */
 
 div#under-box {
+	overflow: hidden;
 	clear: both;
 }
 
