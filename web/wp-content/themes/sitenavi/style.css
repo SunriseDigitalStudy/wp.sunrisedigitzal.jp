@@ -28,8 +28,9 @@ Version: 1.0
 **********************************************/
 
 div.container {
-	width: 980px;
+	width: 950px;
 	margin: 0 auto;
+	color: #4b4b4b;
 }
 
 /*********************************************
@@ -37,12 +38,8 @@ div.container {
 **********************************************/
 
 a {
-	color: #000000;
+	color: #4b4b4b;
 	text-decoration: none;
-}
-
-a:hover {
-	color: #da1400;
 }
 
 div.hidden,
@@ -222,7 +219,7 @@ div#header div#navi-site ul li a:hover {
 **********************************************/
 
 div#main-container {
-	padding: 10px 0;
+	padding-top: 40px;
 }
 
 /*********************************************
